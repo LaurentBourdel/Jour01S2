@@ -60,3 +60,17 @@ def magic_array(array)
 	array = array.uniq
 	return array
 end
+
+def main
+	puts  ""
+	puts  "> 03_basics"
+	puts  "----------------------"
+	puts  "> who_is_bigger(a, b, c)"
+	puts  "> reverse_upcase_noLTA"
+	puts  "> array_42"
+	puts  "> magic_array"
+	puts  ""
+  	
+end
+
+main

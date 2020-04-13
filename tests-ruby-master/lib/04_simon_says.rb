@@ -44,3 +44,19 @@ def titleize (string)
 	string = array1.join(' ')
 	return string
 end
+
+def main
+	puts  ""
+	puts  "> 04_simon_says"
+	puts  "----------------------"
+	puts  "> echo"
+	puts  "> shout"
+	puts  "> repeat"
+	puts  "> start_of_word"
+	puts  "> first_word"
+	puts  "> titleize"
+	puts  ""
+  	
+end
+
+main

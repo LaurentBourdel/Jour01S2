@@ -1,5 +1,4 @@
 def ask_conv
-  puts " "
   puts "> Conversion: (C -> F) tape c - (F -> C) tape f"
   print "> "
   return gets.chomp.to_s
@@ -22,16 +21,18 @@ def ctof(temp_c)
 end
 
 def temp_converter
+
+  puts  ""
+  puts  "> 01_temperature"
+  puts  "----------------------"
 	conv = ask_conv
 	if conv == "f"
   		t_c = ftoc(ask_temp)
   		puts "> temperature (C) = #{t_c}"
-  		puts " "
   	end
   	if conv == "c"
   		t_f = ctof(ask_temp)
   		puts "> temperature (F) = #{t_f}"
-  		puts " "
   	end
 	
 end
